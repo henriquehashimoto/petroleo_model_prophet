@@ -31,7 +31,7 @@ dados["data"] = pd.to_datetime(dados["data"])
 dados["preco"] = dados["preco_petroleo_bruto_brent"]
 
 # Config iniciais
-st.set_page_config(page_title="Dados histórico", page_icon="📈")
+st.set_page_config(page_title="Dados histórico e EDA", page_icon="📈")
 st.write("# Veja abaixo os dados históricos e uma Analise Exploratória")
 st.markdown(
 '''

@@ -14,6 +14,8 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 import numpy as np
 
 
+st.set_page_config(page_title="Previsão preços petróleo", page_icon="📊")
+
 #carregando os dados 
 dados = pd.read_csv('./dados/df.csv')
 dados = dados.loc[(dados['ds'] >= '2020-01-01')]
